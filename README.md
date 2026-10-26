@@ -9,7 +9,7 @@ A pocket-sized USB HID injection tool built on the ESP32-S3's native USB periphe
 
 ## Why I built this
 
-*(Add your own motivation here — e.g. what got you into USB HID attacks / BadUSB-style tools, why you wanted a native-USB ESP32-S3 version instead of an ATtiny85 or Digispark, what you wanted to learn building your own PCB for it.)*
+I had no experience in making devboards from esp32 dev modules so this is the best practical project i could think of aside from making a simple devboard
 
 ## Features
 
