@@ -28,8 +28,6 @@ The ESP32-S3 has a native USB-OTG peripheral, so it can act as a USB HID device 
 
 On boot, the firmware initializes the keyboard HID driver and the USB peripheral. The main loop watches the BOOT button (GPIO0, debounced) for a press. On a press, `triggerMacro()` sends a scripted sequence of keystrokes to whatever host the board is plugged into — the included example opens the Windows Run dialog (`GUI + R`), launches Notepad, and types a short message, release-all-keys between each step to avoid stuck inputs.
 
-This example payload is just a placeholder — replace the contents of `triggerMacro()` with your own keystroke sequence (a "Ducky Script"-style payload) for whatever it's meant to demonstrate or test.
-
 ## Flashing
 
 1. Install the ESP32 board package in Arduino IDE (or PlatformIO) and select **ESP32S3 Dev Module**.
